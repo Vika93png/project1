@@ -1,11 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        double osnov1 = 12.0;
-        double osnov2 = 18.0;
-        double visota = 8.0;
 
-        double area = (osnov1 + osnov2) / 2 * visota;
+        double res1 = Math.pow(2, 10);
 
-        System.out.println("Площадь трапеции: " + area + " см²");
+
+        double res2 = Math.pow(10, 2);
+
+        System.out.println("2 в 10 степени = " + res1);
+        System.out.println("10 в квадрате = " + res2);
     }
 }
