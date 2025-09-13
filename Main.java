@@ -1,8 +1,11 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        int kolvo = 3;
-        System.out.println("Количество языков программирования, которые я знаю: " + kolvo);
+        double osnov1 = 12.0;
+        double osnov2 = 18.0;
+        double visota = 8.0;
+
+        double area = (osnov1 + osnov2) / 2 * visota;
+
+        System.out.println("Площадь трапеции: " + area + " см²");
     }
 }
